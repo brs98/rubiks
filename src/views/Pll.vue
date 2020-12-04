@@ -5,7 +5,13 @@
       <ul class="pure-menu-list">
         <li class="pure-menu-item"><a @click="select('edge')" href="#" class="pure-menu-link">Edge Only</a></li>
         <li class="pure-menu-item"><a @click="select('corner')" href="#" class="pure-menu-link">Corner Only</a></li>
+      </ul>
+      <br/>
+      <ul class="pure-menu-list">
         <li class="pure-menu-item"><a @click="select('swap')" href="#" class="pure-menu-link">Corner and Edge Swap</a></li>
+      </ul>
+      <br/>
+      <ul class="pure-menu-list">
         <li class="pure-menu-item"><a @click="select('cycle')" href="#" class="pure-menu-link">Corner and Edge Cycle</a></li>
       </ul>
   </div>

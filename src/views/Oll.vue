@@ -14,6 +14,9 @@
       <ul class="pure-menu-list">
         <li class="pure-menu-item"><a @click="select('all')" href="#" class="pure-menu-link">All Edges Oriented</a></li>
         <li class="pure-menu-item"><a @click="select('none')" href="#" class="pure-menu-link">No Edges Oriented</a></li>
+      </ul>
+      <br/>
+      <ul class="pure-menu-list">
         <li class="pure-menu-item"><a @click="select('big')" href="#" class="pure-menu-link">Big Lightning</a></li>
         <li class="pure-menu-item"><a @click="select('small')" href="#" class="pure-menu-link">Small Lightning</a></li>
       </ul>
@@ -22,6 +25,9 @@
         <li class="pure-menu-item"><a @click="select('awkward')" href="#" class="pure-menu-link">Awkward</a></li>
         <li class="pure-menu-item"><a @click="select('fish')" href="#" class="pure-menu-link">Fish</a></li>
         <li class="pure-menu-item"><a @click="select('knight')" href="#" class="pure-menu-link">Knight</a></li>
+      </ul>
+      <br/>
+      <ul class="pure-menu-list">
         <li class="pure-menu-item"><a @click="select('square')" href="#" class="pure-menu-link">Square</a></li>
         <li class="pure-menu-item"><a @click="select('arrow and h')" href="#" class="pure-menu-link">Arrow and H</a></li>
       </ul>

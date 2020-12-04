@@ -1,6 +1,6 @@
 <template>
 <div class="home">
-<h2>Here are a list of the new algorithms added from the "Admin" page!</h2>
+<h2>Here is a list of the new algorithms added from the "Admin" page!</h2>
   <section class="image-gallery">
     <div class="image" v-for="item in items" :key="item.id">
       <h2>{{item.title}}</h2>
