@@ -4,7 +4,8 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/oll">Oll</router-link> |
       <router-link to="/pll">Pll</router-link> |
-      <router-link to="/myalgorithms">My Algorithms</router-link>
+      <router-link to="/myalgorithms">My Algorithms</router-link> |
+      <router-link to="/admin">Admin</router-link>
     </div>
     <router-view/>
   </div>

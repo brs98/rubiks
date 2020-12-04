@@ -27,6 +27,11 @@ const routes = [
     path: '/myalgorithms',
     name: 'Myalgorithms',
     component: () => import(/* webpackChunkName: "about" */ '../views/Myalgorithms.vue')
+  },
+  {
+    path: '/admin',
+    name: 'Admin',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Admin.vue')
   }
 ]
 
