@@ -31,7 +31,7 @@
       </div>
       <div class="upload" v-if="findItem">
         <input v-model="findItem.title">
-	<textarea v-model="description" placeholder="New description"></textarea>
+	<input v-model="description" placeholder="New description">
         <p></p>
         <img :src="findItem.path" />
       </div>
@@ -131,6 +131,7 @@ export default {
 .suggestions {
   width: 200px;
   border: 1px solid #ccc;
+  background-color: white;
 }
 
 .suggestion {
@@ -161,16 +162,6 @@ export default {
 .add,
 .edit {
   display: flex;
-}
-
-.circle {
-  border-radius: 50%;
-  width: 18px;
-  height: 18px;
-  padding: 8px;
-  background: #333;
-  color: #fff;
-  text-align: center
 }
 
 /* Form */
