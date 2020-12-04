@@ -8,6 +8,7 @@
       <router-link to="/admin">Admin</router-link>
     </div>
     <router-view/>
+    <a href="https://github.com/brs98/rubiks">Github Link</a>
   </div>
 </template>
 
