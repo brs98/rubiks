@@ -33,7 +33,7 @@ app.post('/api/items', async (req, res) => {
 // Configure multer so that it will upload to '../front-end/public/images'
 const multer = require('multer')
 const upload = multer({
-  dest: '/var/www/rubiks.southwickstudios.com/images',
+  dest: '/var/www/rubiks.southwickstudios.com/front-end/public/images',
   limits: {
     fileSize: 10000000
   }
